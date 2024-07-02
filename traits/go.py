@@ -21,7 +21,7 @@ class GoTrait:
         else:
             self.animation.deltaTime = 7
             if abs(self.entity.vel.x) > 3.2:
-                self.entity.vel.x = 3.2 * self.heading
+                self.entity.vel.x = 3.5 * self.heading
             self.maxVel = 3.2
 
         if self.direction != 0:
